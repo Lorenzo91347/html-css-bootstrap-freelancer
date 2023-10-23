@@ -13,6 +13,31 @@ Colors
 /*
 Nav
 */
-.nav {
+.top-menu {
     background-color: var(--nav-ft-bgd);
+}
+
+/*
+Main Intro
+*/
+
+.main-intro {
+    background-color: var(--primary-bgd);
+
+}
+
+/*
+About
+*/
+
+.about {
+    background-color: var(--primary-bgd);
+}
+
+/*
+Location
+*/
+
+.location {
+    background-color: var(--seconday-bgd);
 }
