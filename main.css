@@ -15,6 +15,7 @@ Nav
 */
 .top-menu {
     background-color: var(--nav-ft-bgd);
+    color: var(--secondary-txt-clr);
 }
 
 /*
@@ -24,6 +25,10 @@ Main Intro
 .main-intro {
     background-color: var(--primary-bgd);
 
+}
+
+.avatar {
+    width: 14.0625rem;
 }
 
 /*
@@ -40,4 +45,34 @@ Location
 
 .location {
     background-color: var(--seconday-bgd);
+}
+
+/*
+Components
+*/
+.bar-star {
+    width: .625rem;
+    height: 5px;
+    background-color: var(--secondary-txt-clr);
+    border-radius: 22px;
+    margin: 0 5% 0;
+}
+
+.fa-star {
+    width: fit-content;
+}
+
+.bar-star2 {
+    width: .625rem;
+    height: 5px;
+    background-color: var(--starline-clr);
+    border-radius: 22px;
+    margin: 0 5% 0;
+}
+
+.social {
+    width: 3.125rem;
+    height: 3.125rem;
+    border: 1px solid white;
+    border-radius: 50%;
 }

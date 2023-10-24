@@ -16,24 +16,46 @@
 
 
 <body>
-    <section class="top-menu text-light">
-        <nav>
+    <section>
+        <nav class="navbar navbar-expand-lg text-uppercase top-menu" data-bs-theme="dark">
             <div class="container-fluid">
-                <div class="row justify-content-stretch ">
-                    <div class="col text-md-center">Colonna 1</div>
-                    <div class="col text-end text-md-center">Colonna 2</div>
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
     </section>
-    <section class="main-intro text-light">
-        <div class="container text-center .mx-auto py-4">
-            <div>
-                <img class="img-fluid" src="https://picsum.photos/id/237/220/260" alt="">
+    <section class="main-intro text-light py-3">
+        <div class="container text-center">
+            <div class="row mx-5">
+                <div class="col4">
+                    <img class="avatar" src="img/avatar.svg" alt="">
+                </div>
+                <div class=" fs-1 fw-semibold text-uppercase">start bootstrap</div>
+                <div class="row no-wrap justify-content-center">
+                    <div class="bar-star"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="bar-star"></div>
+
+                </div>
+                <div class=" text-uppercase">Graphic artist - Web designer - Illustrator</div>
             </div>
-            <div class=" fs-2 fw-semibold text-uppercase">start bootstrap</div>
-            <div>Barra e Stellina</div>
-            <div class=" text-uppercase">jobs jobs jobs</div>
+        </div>
         </div>
 
     </section>
@@ -41,49 +63,101 @@
     <section>
         <div class="container text-center">
             <div class="fs-4 fw-semibold text-uppercase pt-4 pb-3">Portfolio</div>
-            <div>Barra e Stellina</div>
-        </div>
-        <div class="container xl-mx-auto xxl-mx-3">
-            <div class="row">
-                <div class="col-sm-12 my-3"><img class="img-fluid" src="https://picsum.photos/500/350" alt=""></div>
-                <div class="col-sm-12 my-3"><img class="img-fluid" src="https://picsum.photos/500/350" alt=""></div>
-                <div class="col-sm-12 my-3"><img class="img-fluid" src="https://picsum.photos/500/350" alt=""></div>
-                <div class="col-sm-12 my-3"><img class="img-fluid" src="https://picsum.photos/500/350" alt=""></div>
-                <div class="col-sm-12 my-3"><img class="img-fluid" src="https://picsum.photos/500/350" alt=""></div>
-                <div class="col-sm-12 my-3"><img class="img-fluid" src="https://picsum.photos/500/350" alt=""></div>
+            <div class="row no-wrap justify-content-center align-items-center mb-3">
+                <div class="bar-star2"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="bar-star2"></div>
             </div>
-        </div>
+            <div class="container">
+                <div class="row  row-gap-4">
+                    <div class="col12 col-lg-6 col-xxl-4"><img class="img-fluid rounded" src="img/cabin.png" alt="">
+                    </div>
+                    <div class="col12 col-lg-6 col-xxl-4"><img class="img-fluid rounded" src="img/cake.png" alt="">
+                    </div>
+                    <div class="col12 col-lg-6 col-xxl-4"><img class="img-fluid rounded" src="img/circus.png" alt="">
+                    </div>
+                    <div class="col12 col-lg-6 col-xxl-4"><img class="img-fluid rounded" src="img/game.png" alt="">
+                    </div>
+                    <div class="col12 col-lg-6 col-xxl-4"><img class="img-fluid rounded" src="img/safe.png" alt="">
+                    </div>
+                    <div class="col12 col-lg-6 col-xxl-4 mb-5"><img class="img-fluid rounded" src="img/submarine.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
     </section>
     <section class="about text-light">
         <div class="container xl-mx-auto xxl-mx-3">
-            <div class="fs-4 fw-semibold text-uppercase pt-4 pb-3 text-center">About</div>
-            <div class="text-center my-3">Barra e Stellina</div>
-            <p class="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eius, autem debitis alias
-                ipsum soluta
-                eveniet iure non quis fugit in ratione error illo, ea totam, molestias corrupti animi voluptatum.</p>
-            <p class="w-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, porro natus! Facere
-                temporibus
-                incidunt necessitatibus molestias dignissimos molestiae, quis adipisci tenetur saepe debitis
-                perspiciatis sit sapiente, beatae tempora fugiat amet.</p>
-            <div class="text-center border w-25 mx-auto">Download</div>
+            <div class="w-50 vstack mx-auto">
+                <div class="fs-4 fw-semibold text-uppercase pt-4 pb-3 text-center">About</div>
+                <div class="row no wrap justify-content-center align-items-center mb-3">
+                    <div class="bar-star"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="bar-star"></div>
+                </div>
+                <div class="align-middle">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eius,
+                        autem debitis
+                        alias
+                        ipsum soluta
+                        eveniet iure non quis fugit in ratione error illo, ea totam, molestias corrupti animi
+                        voluptatum.
+                    </p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
+                        porro natus!
+                        Facere
+                        temporibus
+                        incidunt necessitatibus molestias dignissimos molestiae, quis adipisci tenetur saepe debitis
+                        perspiciatis sit sapiente, beatae tempora fugiat amet.</p>
+                </div>
+                <div class="border border-white rounded text-center mx-auto py-1 mb-3 w-50"><i
+                        class="fa-solid fa-download"></i>
+                    Download
+                </div>
+
+            </div>
         </div>
     </section>
     <section>
         <div class="container mx-auto">
             <div class="fs-4 fw-semibold text-uppercase pt-4 pb-3 text-center">Contact me</div>
-            <div class="textcenter my-3">Barra e Stellina</div>
-            <div class="w-50 h-25 border-bottom border-1">Text</div>
-            <div class="w-50 h-25 border-bottom border-1">Text</div>
-            <div class="w-50 h-25 border-bottom border-1">Text</div>
-            <div class="w-50 h-50 border-bottom border-1">Text</div>
+            <div class="row no-wrap justify-content-center align-items-center mb-3">
+                <div class="bar-star2"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="bar-star2"></div>
+            </div>
+            <div class="w-50 vstack mx-auto g-3">
+                <div class="col6">
+                    <input type="text" class="form-control-plaintext border-bottom" placeholder="Name"
+                        aria-label="First name">
+                </div>
+                <div class="col6">
+                    <input type="email" class="form-control-plaintext border-bottom" placeholder="Email Address"
+                        aria-label="Last name">
+                </div>
+                <div class="col6">
+                    <input type="number" class="form-control-plaintext border-bottom" placeholder="Phone Number"
+                        aria-label="Last name">
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control-plaintext border-bottom" placeholder="Leave a comment here"
+                        id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                </div>
+            </div>
         </div>
     </section>
     <section class="location text-light">
         <div class="container text-center">
             <div class="text-uppercase">Location</div>
-            <div class="mb-3">Drive</div>
-            <div>Around</div>
-            <div class="mb-3">Icons</div>
+            <div class="mb-3">John Daniel Drive Clark, MO 54243</div>
+            <div class="text-uppercase">Around the Web</div>
+            <div class="hstack justify-content-center align-items-center gap-4  ">
+                <div class="social align-middle"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="social"><i class="fa-brands fa-google-plus-g"></i></div>
+                <div class="social"><i class="fa-brands fa-twitter"></i></div>
+                <div class="social"><i class="fa-brands fa-linkedin-in"></i></div>
+            </div>
             <div>About</div>
             <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi tempora nisi
                 voluptatem quaerat
